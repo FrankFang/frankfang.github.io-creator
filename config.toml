@@ -10,6 +10,15 @@ googleAnalytics = ""
 
 preserveTaxonomyNames = true
 
+DefaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
+
+
+[Languages]
+[languages.zh]
+  languageCode = "zh-CN"
+  languageName = "简体中文"
+
 [blackfriday]
   hrefTargetBlank = true
   nofollowLinks = true
