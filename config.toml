@@ -25,9 +25,13 @@ defaultContentLanguageInSubdir = false
   noreferrerLinks = true
 
 [Permalinks]
- posts = "/:year/:filename/"
+ posts = "/:filename/"
 
 [menu]
+  [[menu.main]]
+    name = "搜索"
+    url = "/search/"
+    weight = 1
   [[menu.main]]
     name = "首页"
     url = "/"
